@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="shortcut icon" href="img/icon.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body class="body-style">
+    <header>
+        <section>
+            <p class="header_logo">SOLAR SYSTEM</p>
+            <nav class="header_nav">
+                <a href="index.html">Home</a>
+                <a href="#solar_container">Solar System</a>
+                <a href="#planets_container">Planets</a>
+                <a href="#footer_container">Contacts</a>
+                <a href="#">Cart</a>
+            </nav>
+        </section>
+        <div class="banner">
+            <div>
+                <h1>Explore the universe</h1>
+                <section>
+                    <div id="checker">Check available trips</div>
+                    <div id="panel">
+                        <div>Check Mercury</div>
+                        <div>Check Venus</div>
+                        <div>Check Mars</div></div>
+                    <!--<div>Check Venus</div>-->
+                    <!--<div>Check Mars</div>-->
+                </section>
+                <!--<div class="button_container">-->
+                <!--    <button>Check available trips</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        <section id="solar_container">
+            <h2>Solar System</h2>
+            <div class="parallax"></div>
+            <p>A solar system is a star and all of the objects that travel around it—planets, moons, asteroids, comets and meteoroids. Most stars host their own planets, so there are likely tens of billions of other solar systems in the Milky Way galaxy alone. Solar systems can also have more than one star. These are called binary star systems if there are two stars, or multi-star systems if there are three or more stars.</p>
+        </section>
+        
+        <section id="planets_container">
+            <h2>Planets</h2>
+            <div>
+                <section>
+                    <h3>Mercury</h3>
+                    <img src="img/mercury.jpg" alt="Mercury">
+                    <p>The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as 11 times brighter.</p>
+                </section>
+                <section>
+                    <h3>Venus</h3>
+                    <img src="img/venus.jpg" alt="Venus">
+                    <p>Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.</p>
+                </section>
+                <section>
+                    <h3>Earth</h3>
+                    <img src="img/earth.jpg" alt="Earth">
+                    <p>Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.</p>
+                </section>
+                <section>
+                    <h3>Mars</h3>
+                    <img src="img/mars.jpg" alt="Mars">
+                    <p>The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons and weather. Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA missions have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago.</p>
+                </section>
+                <section>
+                    <h3>Jupiter</h3>
+                    <img src="img/jupiter.jpg" alt="Jupiter">
+                    <p>Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.</p>
+                </section>
+                <section>
+                    <h3>Saturn</h3>
+                    <img src="img/saturn01.jpg" alt="Saturn">
+                    <p>Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with a dazzling system of icy rings, Saturn is unique among the planets. It is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.</p>
+                </section>
+                <section>
+                    <h3>Uranus</h3>
+                    <img src="img/uranus.jpg" alt="Uranus">
+                    <p>The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side, orbiting the Sun like a rolling ball.</p>
+                </section>
+                <section>
+                    <h3>Neptune</h3>
+                    <img src="img/neptune.jpg" alt="Neptune">
+                    <p>Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.</p>
+                </section>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer id="footer_container">
+        <h2 id="contacts">Contacts</h2>
+        <h3>Leave us your contacts and we will contact you.</h3>
+        <form method="POST" action="https://formspree.io/heminopon@dim-coin.com">
+            <label>
+               Enter your name:  <input type="text" name="user-name" placeholder="Enter your name"/><br>
+            </label>
+            <label>
+                Enter your email: <input type="text" name="user-email" placeholder="Enter your email"/><br>
+            </label>
+            <label>
+              Enter your text: <input type="text" name="user-text" placeholder="Enter your text"/>
+            </label>
+            <input type="submit" name="Submit"/>
+            <input type="reset" name="Reset"/>
+        </form>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>

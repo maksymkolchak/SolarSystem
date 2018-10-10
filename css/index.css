@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Notable');
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.body-style{
+    max-width: 1600px;
+    margin: auto;
+    background-color: black;
+}
+
+.header_logo{
+    font-family: 'Notable', sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.header_nav{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 20px;
+}
+
+.header_nav a{
+    color: wheat;
+    text-decoration: none;
+    padding: 0 1%;
+}
+
+.header_nav a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    height: 50vh;
+    background-image: url('../img/space.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: wheat;
+}
+
+.banner .button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: black;
+    background-color: wheat;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+#solar_container p{
+    margin: 32px 32px 64px 32px;
+    text-align: justify;
+}
+
+/*.planets_container h2{*/
+/*    color: black;*/
+/*    background-color: wheat;*/
+/*    text-align: center;*/
+/*    padding-top: 20px;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+#planets_container h3{
+    margin-right: 10px;
+    text-align: center;
+    background-color: #2e3a4c;
+    padding-left: 25px;
+}
+
+#planets_container img{
+    padding-left: 40px;
+    display: block;
+    width: 30%;
+}
+
+#planets_container p{
+    padding: 40px;
+    text-align: justify;
+}
+
+@media (min-width: 600px){
+    #planets_container div{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .parallax{
+        background-image: url('../img/solar_system.jpg')/*no-repeat center*/;
+        /*background-size: cover;*/
+        /*background-attachment: fixed;*/
+        /*height: 300px;*/
+        
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; 
+    }
+}
+    
+    
+#footer_container{
+    background-color: #2e3a4c;
+    padding-bottom: 70px;
+}
+    
+#panel, #checker {
+    padding: 5px;
+    text-align: center;
+    /*background-color: #e5eecc;*/
+    border: solid 1px #c3c3c3;
+    color: wheat;
+    background-color: black;
+}
+
+#panel {
+    padding: 10px;
+    display: none;
+    background-color: black;
+}
+
+#panel div{
+    padding: 10px;
+}
+    
