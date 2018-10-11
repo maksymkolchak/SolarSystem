@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Notable');
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.body-style{
+    max-width: 1500px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner{
+    height: 50vh;
+    background-image: url('../img/mars_img/mars_banner.jpg');
+    /*background-size: cover;*/
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: wheat;
+}
+
+h2{
+    color: black;
+    background-color: wheat;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
