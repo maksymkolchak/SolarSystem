@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Notable');
-
-:root{
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Notable'); :root {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.body-style{
+.body-style {
     max-width: 1500px;
     margin: auto;
     background-color: black;
     color: white;
 }
 
-.header_logo{
+.header_logo {
     font-family: 'Notable', sans-serif;
     font-size: 2rem;
     margin: 1rem;
@@ -25,21 +23,13 @@
 
 .dropdown-menu {
     background-color: #343a40;
-    /*color: white;*/
 }
 
 .dropdown-menu a {
-    /*background-color: black;*/
     color: white;
 }
 
-/*.dropdown-divider{*/
-/*    background-color: black;*/
-    /*color: white;*/
-/*}*/
-
-
-.banner{
+.banner {
     height: 85vh;
     background-image: url('../img/space.jpg');
     background-size: cover;
@@ -49,17 +39,17 @@
     align-items: center;
 }
 
-.banner h1{
+.banner h1 {
     color: wheat;
 }
 
-.banner .button_container{
+.banner .button_container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h2{
+h2 {
     color: black;
     background-color: wheat;
     text-align: center;
@@ -68,57 +58,57 @@ h2{
     margin-bottom: 0;
 }
 
-#solar_container p{
+#solar_container p {
     margin: 32px 32px 64px 32px;
     text-align: justify;
 }
 
-#planets_container h3{
+#planets_container h3 {
     margin-right: 10px;
     text-align: center;
     background-color: #343a40;
     padding-left: 25px;
 }
 
-#planets_container img{
+#planets_container img {
     padding-left: 40px;
     display: block;
     width: 30%;
 }
 
-#planets_container p{
+#planets_container p {
     padding: 40px;
     text-align: justify;
 }
 
-@media (min-width: 600px){
-    #planets_container div{
+@media (min-width: 600px) {
+    #planets_container div {
         padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
-    .parallax{
-        background-image: url('../img/solar_system.jpg')/*no-repeat center*/;
-        /*background-size: cover;*/
-        /*background-attachment: fixed;*/
-        /*height: 300px;*/
-        
+
+    .parallax {
+        background-image: url('../img/solar_system.jpg');
         min-height: 400px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain; 
+        background-size: contain;
     }
 }
-    
-    
-#form-footer{
-    background-color: #2e3a4c;
-    padding: 50px;
+
+#form-footer {
+    padding: 60px;
+    /*height: 0vh;*/
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
 }
 
-#inputEmail3 {
+#footer_container input {
     max-width: 300px;
 }
 
@@ -129,11 +119,10 @@ h2{
 #license_context {
     color: black;
 }
-    
+
 #panel, #checker {
     padding: 5px;
     text-align: center;
-    /*background-color: #e5eecc;*/
     border: solid 1px #c3c3c3;
     color: wheat;
     background-color: black;
@@ -145,7 +134,6 @@ h2{
     background-color: black;
 }
 
-#panel div{
+#panel div {
     padding: 10px;
 }
-    
